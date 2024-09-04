@@ -1,0 +1,39 @@
+.body{
+    background: linear-gradient(300deg, #D1E9F6, #F6EACB, #F1D3CE);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+.font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    background-color: #EECAD5;
+    font-size: 700;
+    color: black;
+}
+.img-fluid{
+    background-color: black;
+}
+.p-2{
+
+    border-radius: 15%;
+    background-color: #000;
+    color: whitesmoke;
+    font-family: serif;
+    border: 0;
+}
